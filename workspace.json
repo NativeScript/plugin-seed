@@ -65,38 +65,6 @@
 				}
 			}
 		},
-		"demo-vue": {
-			"root": "apps/demo-vue/",
-			"sourceRoot": "apps/demo-vue/src",
-			"projectType": "application",
-			"prefix": "demo",
-			"architect": {
-				"ios": {
-					"builder": "@nrwl/workspace:run-commands",
-					"options": {
-						"commands": ["ns debug ios --no-hmr --emulator --env.testing"],
-						"cwd": "apps/demo-vue",
-						"parallel": false
-					}
-				},
-				"android": {
-					"builder": "@nrwl/workspace:run-commands",
-					"options": {
-						"commands": ["ns debug android --no-hmr --emulator --env.testing"],
-						"cwd": "apps/demo-vue",
-						"parallel": false
-					}
-				},
-				"clean": {
-					"builder": "@nrwl/workspace:run-commands",
-					"options": {
-						"commands": ["ns clean", "npm i"],
-						"cwd": "apps/demo-vue",
-						"parallel": false
-					}
-				}
-			}
-		},
 		"all": {
 			"root": "packages",
 			"projectType": "library",
@@ -113,7 +81,7 @@
 					"builder": "@nrwl/workspace:run-commands",
 					"outputs": ["dist/packages"],
 					"options": {
-						"commands": ["nx workspace-schematic focus-packages"],
+						"commands": ["nx g @nativescript/plugin-tools:focus-packages"],
 						"parallel": false
 					}
 				}
