@@ -3,6 +3,7 @@
 **Download and Configure first:**
 
 1. Download a zip of this repo
+2. Unzip and name the folder appropriately (perhaps the name of the npm scope you intend to manage here)
 2. Then configure your npm scope:
 
 ```
