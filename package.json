@@ -3,6 +3,7 @@
 	"version": "0.0.0",
 	"license": "MIT",
 	"scripts": {
+		"postinstall": "node ./node_modules/husky/lib/installer/bin install",
 		"setup": "npx rimraf node_modules package-lock.json dist tmp && npm i && ts-patch install",
 		"start": "nps",
 		"add": "nx g @nativescript/plugin-tools:add-package",
@@ -27,6 +28,7 @@
 		"@nativescript/types": "~7.0.0",
 		"@nativescript/webpack": "~3.0.0",
 		"@ngtools/webpack": "~10.1.0",
+		"husky": "^4.3.0",
 		"nativescript-vue": "~2.8.0",
 		"nativescript-vue-template-compiler": "~2.8.0",
 		"ng-packagr": "~10.1.0",
