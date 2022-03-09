@@ -20,11 +20,12 @@ console.log(`Building ${npmPackageName}...${publish ? 'and publishing.' : ''}`);
 function buildAngular() {
   ngPackage
     .ngPackagr()
-    .forProject(path.join('packages', packageName, 'angular', 'package.json'))
+    .forProject(path.join('packages', packageName, 'angular', 'ng-package.json'))
     .withTsConfig(path.join('packages', packageName, 'angular', 'tsconfig.angular.json'))
     .build()
     .then(() => {
-      copyAngularDist();
+      console.log(`${npmPackageName} angular built successfully.`);
+      finishPreparation();
     })
     .catch((error) => {
       console.error(error);
