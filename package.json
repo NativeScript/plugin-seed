@@ -27,7 +27,7 @@
     "@angular/router": "^13.2.0",
     "@nativescript/angular": "^13.0.0",
     "@nativescript/core": "~8.2.0",
-    "@nativescript/plugin-tools": "3.0.0",
+    "@nativescript/plugin-tools": "3.0.3",
     "@nativescript/types": "~8.2.0",
     "@nativescript/webpack": "~5.0.5",
     "@ngtools/webpack": "^13.0.0",
@@ -47,3 +47,4 @@
     ]
   }
 }
+
