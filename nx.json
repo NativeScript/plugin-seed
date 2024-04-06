@@ -21,17 +21,8 @@
       "inputs": ["production", "^production"],
       "cache": true
     },
-    "lint": {
+    "@nx/eslint:lint": {
       "inputs": ["default", "{workspaceRoot}/.eslintrc.json"],
-      "cache": true
-    },
-    "build.all": {
-      "cache": true
-    },
-    "test": {
-      "cache": true
-    },
-    "e2e": {
       "cache": true
     }
   },
