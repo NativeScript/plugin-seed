@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "postinstall": "husky install && npx ts-patch install",
+    "postinstall": "husky && npx ts-patch install",
     "setup": "npx rimraf node_modules package-lock.json dist tmp yarn.lock && yarn",
     "start": "nps",
     "add": "nx g @nativescript/plugin-tools:add-package",
@@ -28,7 +28,7 @@
     "@angular/router": "^18.0.0",
     "@nativescript/angular": "^18.0.0",
     "@nativescript/core": "~8.8.0",
-    "@nativescript/plugin-tools": "5.3.1",
+    "@nativescript/plugin-tools": "5.4.1",
     "@nativescript/types": "~8.8.0",
     "@nativescript/webpack": "~5.0.22",
     "@ngtools/webpack": "^18.0.0",

@@ -30,6 +30,11 @@ npm start
 
 This workspace manages the suite of plugins listed above. 
 
+## Prerequisites
+
+- Node 18+ is recommended
+- [yarn v1](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) is required
+
 In general, when in doubt with what to do, just `npm start`.
 
 ## How to add a new package to workspace?
