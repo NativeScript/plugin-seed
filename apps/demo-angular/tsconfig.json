@@ -1,9 +1,11 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
+    "rootDirs": [".", "../.."],
+    "baseUrl": ".",
     "paths": {
       "~/*": ["src/*"],
-      "@demo/shared": ["tools/demo/index.ts"]
+      "@demo/shared": ["../../tools/demo/index.ts"]
     }
   },
   "files": ["./references.d.ts", "./src/main.ts", "./src/polyfills.ts"],
