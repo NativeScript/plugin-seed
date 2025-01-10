@@ -1,15 +1,15 @@
-// Add your native dependencies here:
+// Add additional native dependencies here, for example:
 
-// Uncomment to add recyclerview-v7 dependency
-//dependencies {
-//	compile 'com.android.support:recyclerview-v7:+'
-//}
+// dependencies {
+//   implementation 'com.google.android.gms:play-services-location:+'
+// }
 
 android {
-  compileSdkVersion 32
+  compileSdkVersion 34
+  buildToolsVersion "34"
   defaultConfig {
-    minSdkVersion 21
-    targetSdkVersion 32
+    minSdkVersion 24
+    targetSdkVersion 34
     generatedDensities = []
   }
   aaptOptions {
