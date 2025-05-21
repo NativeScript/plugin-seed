@@ -28,7 +28,7 @@
     "@angular/router": "^19.0.0",
     "@nativescript/angular": "^19.0.0",
     "@nativescript/core": "~8.9.0",
-    "@nativescript/plugin-tools": "5.5.1",
+    "@nativescript/plugin-tools": "5.5.2",
     "@nativescript/types": "~8.9.0",
     "@nativescript/webpack": "~5.0.22",
     "@ngtools/webpack": "^19.0.0",
